@@ -1,0 +1,9 @@
+D:\1351010094_phat\RSA\RSA\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\1351010094_phat\RSA\RSA\obj\x86\Debug\RSA.form_BaoMat.resources
+D:\1351010094_phat\RSA\RSA\obj\x86\Debug\RSA.Properties.Resources.resources
+D:\1351010094_phat\RSA\RSA\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\1351010094_phat\RSA\RSA\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\1351010094_phat\RSA\RSA\bin\Debug\RSA.exe
+D:\1351010094_phat\RSA\RSA\bin\Debug\RSA.pdb
+D:\1351010094_phat\RSA\RSA\obj\x86\Debug\RSA.exe
+D:\1351010094_phat\RSA\RSA\obj\x86\Debug\RSA.pdb
