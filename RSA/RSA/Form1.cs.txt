@@ -1,0 +1,72 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+namespace RSA
+{
+    public partial class Form_sinhkhoa : Form
+    {
+        int p, q, ee, phi, ks, kp, d, n;
+        string[] arr = new string[4];
+        ListViewItem itm;
+        public Form_sinhkhoa()
+        {
+            InitializeComponent();
+        }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            itm = new ListViewItem(arr);
+            int n_nhap = Convert.ToInt32(n_nt.Text.ToString()),a=0;
+            for (int i = 2; i <= n_nhap; i++)
+            {
+                for (int j = 1; j <= n_nhap; j++)
+                    if (i % j == 0)
+                        a++;
+                if (a <= 2)
+                    list.Items.Add(i.ToString());
+                a = 0;
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            p = Convert.ToInt32(list.SelectedItems[0].Text);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            q = Convert.ToInt32(list.SelectedItems[0].Text);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ee = Convert.ToInt32(list.SelectedItems[0].Text);
+            e_text.Text = ee.ToString();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            n = p * q;
+            n_text.Text = n.ToString();
+            phi = (p - 1) * (q - 1);
+            phi_text.Text = phi.ToString();
+        }
+
+    }
+}

@@ -1,0 +1,10 @@
+c:\users\b\documents\visual studio 2010\Projects\RSA\RSA\bin\Debug\RSA.exe
+c:\users\b\documents\visual studio 2010\Projects\RSA\RSA\bin\Debug\RSA.pdb
+c:\users\b\documents\visual studio 2010\Projects\RSA\RSA\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\b\documents\visual studio 2010\Projects\RSA\RSA\obj\x86\Debug\RSA.Properties.Resources.resources
+c:\users\b\documents\visual studio 2010\Projects\RSA\RSA\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\b\documents\visual studio 2010\Projects\RSA\RSA\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\b\documents\visual studio 2010\Projects\RSA\RSA\obj\x86\Debug\RSA.exe
+c:\users\b\documents\visual studio 2010\Projects\RSA\RSA\obj\x86\Debug\RSA.pdb
+c:\users\b\documents\visual studio 2010\Projects\RSA\RSA\obj\x86\Debug\RSA.Form_sinhkhoa.resources
+c:\users\b\documents\visual studio 2010\Projects\RSA\RSA\obj\x86\Debug\RSA.Form_main.resources
