@@ -15,7 +15,7 @@ namespace RSA
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new form_BaoMat());
+            Application.Run(new Form_main());
         }
     }
 }
